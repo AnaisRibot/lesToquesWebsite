@@ -5,8 +5,8 @@ const transportSendInBlue = nodemailer.createTransport({
   Port: 587,
   secure: false,
   auth: {
-    user: process.env.NEXT_PUBLIC_SENDINBLUE_USER,
-    pass: process.env.NEXT_PUBLIC_SENDINBLUE_PASSWORD,
+    user: process.env.SENDINBLUE_USER,
+    pass: process.env.SENDINBLUE_PASSWORD,
   },
 });
 
