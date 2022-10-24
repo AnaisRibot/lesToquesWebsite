@@ -19,7 +19,7 @@ const Navbar = () => {
       </ul>
       <div className='app__navbar-login'>
         <GiRotaryPhone color='#fff' fontSize={27} />
-        <p style={{marginLeft:"2rem"}} className="p__opensans">07 65 50 72 49</p>
+        <p style={{marginLeft:"2rem"}} className="p__opensans">07 65 50 72 42</p>
       </div>
 
       <div className='app__navbar-smallscreen'>

@@ -15,25 +15,27 @@ const FindUs = (props) => {
             <p className="p__opensans" id='app__findus-header' style={{ marginBottom:"2rem"}} > Aujourd&apos;hui nous sommes :</p>
             <p className="p__cormorant" style={{ color: "#f36f21",fontSize:"2rem", marginBottom:"2rem", fontWeight:"lighter", marginLeft:"2rem"}}>{props.place}</p>
           </div>
-
+          <div className='app__contact-head'>
+            <p className="p__contact-day" >Lundi</p>
+            <p className="p__opensans">à Pacy s/Eure</p>
+          </div>
           <div className='app__contact-head'>
             <p className="p__contact-day" >Mardi</p>
             <p className="p__opensans">à Boisset-les-Prévanches</p>
           </div>
+          <div className='app__contact-head'>
+            <p className="p__contact-day" >Mercredi</p>
+            <p className="p__opensans">Au Cormier</p>
+          </div>
           <div className='app__contact-dash'/>
           <div className='app__contact-head'>
             <p className="p__contact-day" >Jeudi</p>
-            <p className="p__opensans">à Champenard</p>
+            <p className="p__opensans">à Rolleboise</p>
           </div>
           <div className='app__contact-dash'/>
           <div className='app__contact-head'>
             <p className="p__contact-day" >Vendredi</p>
             <p className="p__opensans">à évreux Faubourg Saint-Léger</p>
-          </div>
-          <div className='app__contact-dash'/>
-          <div className='app__contact-head'>
-            <p className="p__contact-day">Samedi</p>
-            <p className="p__opensans">à évreux Place du Pouget Navarre</p>
           </div>
           <div className='app__contact-dash'/>
         </div>
