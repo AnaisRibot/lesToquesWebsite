@@ -149,37 +149,44 @@ const supp = [
 
 const awards = [
   {
-    imgUrl: '/award02.png',
+    imgUrl: "/award02.png",
     title: "Bib Gourmond",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: '/award01.png',
+    imgUrl: "/award01.png",
     title: "Rising Star",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: '/award05.png',
+    imgUrl: "/award05.png",
     title: "AA Hospitality",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: '/award03.png',
+    imgUrl: "/award03.png",
     title: "Outstanding Chef",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
 
-export const places = ["fermé", "fermé", "à Boisset-les-Prévanches", "fermé", "à Champenard", "à évreux Faubourg Saint-Léger", "à évreux Place du Pouget Navarre"]
-export const maps =[
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1309.618266092115!2d1.3289652757759753!3d48.96802166969655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14b9fa1339281%3A0xa71934e678f8a86!2sEglise%20Boisset-les-Pr%C3%A9vanches!5e0!3m2!1sen!2sfr!4v1663850793388!5m2!1sen!2sfr",
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1309.618266092115!2d1.3289652757759753!3d48.96802166969655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14b9fa1339281%3A0xa71934e678f8a86!2sEglise%20Boisset-les-Pr%C3%A9vanches!5e0!3m2!1sen!2sfr!4v1663850793388!5m2!1sen!2sfr",
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1309.618266092115!2d1.3289652757759753!3d48.96802166969655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14b9fa1339281%3A0xa71934e678f8a86!2sEglise%20Boisset-les-Pr%C3%A9vanches!5e0!3m2!1sen!2sfr!4v1663850793388!5m2!1sen!2sfr",
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1305.9744194290536!2d1.3321147815846077!3d49.10661238005251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e1340d2cf3fc7f%3A0x7439d4c44ebf33c3!2sMairie!5e0!3m2!1sen!2sfr!4v1663850914996!5m2!1sen!2sfr",
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1305.9744194290536!2d1.3321147815846077!3d49.10661238005251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e1340d2cf3fc7f%3A0x7439d4c44ebf33c3!2sMairie!5e0!3m2!1sen!2sfr!4v1663850914996!5m2!1sen!2sfr",
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5231.562214564495!2d1.1526545557562373!3d49.033770075801215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14761d47eb38b%3A0x46d33e2bc2734f2e!2sRue%20du%20Faubourg%20Saint-L%C3%A9ger%2C%2027000%20%C3%89vreux!5e0!3m2!1sen!2sfr!4v1663850037948!5m2!1sen!2sfr",
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1555.8840657333772!2d1.1231904296901598!3d49.0167740760812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e140b6154edb13%3A0x8e5b6e302983fac0!2sPl.%20de%20Navarre%2C%2027000%20%C3%89vreux!5e0!3m2!1sen!2sfr!4v1663850291526!5m2!1sen!2sfr"
-]
-
+export const places = [
+  "fermés",
+  "à Pacy-sur-Eure",
+  "à Boisset-les-Prévanches",
+  "Au Cormier",
+  "à Rolleboise",
+  "à évreux Faubourg Saint-Léger",
+  "Fermés",
+];
+export const maps = [
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6224.146468646739!2d1.3889676978991319!3d49.011893354859126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14aca950ea781%3A0x5ca6151813b335e4!2s137%20Rue%20Edouard%20Isambard%2C%2027120%20Pacy-sur-Eure!5e0!3m2!1sen!2sfr!4v1666620833508!5m2!1sen!2sfr",
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6224.146468646739!2d1.3889676978991319!3d49.011893354859126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14aca950ea781%3A0x5ca6151813b335e4!2s137%20Rue%20Edouard%20Isambard%2C%2027120%20Pacy-sur-Eure!5e0!3m2!1sen!2sfr!4v1666620833508!5m2!1sen!2sfr",
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1309.5949014762023!2d1.3271876424117144!3d48.96891125209982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14b94b99eb57d%3A0xb54a7513a1948f28!2s7%20Rue%20de%20Pacy%2C%2027120%20Boisset-les-Pr%C3%A9vanches!5e0!3m2!1sen!2sfr!4v1666621044784!5m2!1sen!2sfr",
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.0503305694372!2d1.3072290847549906!3d48.97577623740322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14960324798f5%3A0xf7e2a2f00459d07f!2s27120%20Le%20Cormier!5e0!3m2!1sen!2sfr!4v1666699174229!5m2!1sen!2sfr",
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.5949578590153!2d1.608086253712153!3d49.01954416839071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6b864cbae916f%3A0x1d747b8d21a005e!2s71%20Rte%20nationale%2C%2078270%20Rolleboise!5e0!3m2!1sen!2sfr!4v1666699287126!5m2!1sen!2sfr",
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.645294206361!2d1.153202647468636!3d49.03473296040461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e147603300ca5f%3A0x6db25d48acaaa144!2s39%20Rue%20du%20Faubourg%20Saint-L%C3%A9ger%2C%2027000%20%C3%89vreux!5e0!3m2!1sen!2sfr!4v1666699368165!5m2!1sen!2sfr",
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6224.146468646739!2d1.3889676978991319!3d49.011893354859126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e14aca950ea781%3A0x5ca6151813b335e4!2s137%20Rue%20Edouard%20Isambard%2C%2027120%20Pacy-sur-Eure!5e0!3m2!1sen!2sfr!4v1666620833508!5m2!1sen!2sfr",
+];
 
 export default { classic, supp, cream, bufala, awards };
