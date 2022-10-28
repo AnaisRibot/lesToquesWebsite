@@ -26,7 +26,7 @@ const Laurels = () => (
       </h1>
       <div className='app__laurels-offer'>
         <div className="app__wrapper_img" id="rewardImg"  style={{justifyContent:'flex-start'}}>
-          <img src={'/toquesReward.png'} alt="laurels_img" />
+          <img src={'/toquesReward.webp'} alt="laurels_img" />
           <h1 className='app__laurels-headtext'>+ <a href="https://www.facebook.com">< FaFacebook fill='#2374E1'/></a> </h1>
 
         </div>

@@ -80,7 +80,6 @@
     }
 
     #chefImg{
-        width : 50%;
         margin: 1rem 0 0;
     }
     .app__chef-content{
@@ -97,7 +96,11 @@
     .app__chef-sign{
         margin-top: 1rem;
         }
+}
 
-   
-    
+@media screen and (max-width: 490px){
+    #chefImg{
+        margin: 0;
+        width: 100%;
+    }
 }

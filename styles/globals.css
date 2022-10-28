@@ -172,6 +172,7 @@
 
   .app__wrapper_img {
     margin: 2rem 0 0 0;
+    width: 60%;
   }
 
   .app__header-content{
@@ -192,8 +193,6 @@
   .p__cormorant {
     font-size: 19px;
   }
-
-
 
 }
 

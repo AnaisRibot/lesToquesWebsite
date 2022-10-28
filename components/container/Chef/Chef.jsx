@@ -8,11 +8,11 @@ const Chef = () => (
 
     <div className='app__wrapper_info' id='aboutInfo'>
       <div className='app__wrapper_img app__wrapper_img-reverse' id='chefImg'>
-        <img src={'/chef.png'} alt="Chef" />
+        <img src={'/chef.webp'} alt="Chef" />
       </div>
       <div className='app__chef-content'>
         <div className='app__chef-content_quote'>
-          <img src={'/quote.png'} alt="Chef quote" />
+          <img src={'/quote.webp'} alt="Chef quote" />
           <p className='p__opensans'>
             <strong>Le plaisir de faire plaisir...</strong> C&apos;est comme cela que je résume ma passion, mon métier.<br/>
             Ici, uniquement des produits de qualité et de la fraîcheur.
@@ -23,7 +23,7 @@ const Chef = () => (
           <div className='app__chef-sign'>
             <p>Patrice Ducher</p>
             <p className='p__opensans'>Chef & Pizzaïolo</p>
-            <img id='signImg' src={'/sign.png'} alt="sign" />
+            <img id='signImg' src={'/sign.webp'} alt="sign" />
           </div>
         </div>
 

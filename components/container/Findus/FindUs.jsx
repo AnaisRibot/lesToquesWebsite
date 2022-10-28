@@ -42,7 +42,7 @@ const FindUs = (props) => {
         {/* <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button> */}
         <div className="app__wrapper_img" id='app__wrapper_iFrame'>
             <iframe src={props.map}
-            style={{ backgroundImage: 'url(/findus.png)'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
+            style={{ backgroundImage: 'url(/findus.webp)'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
         </div>
       </div>
 
