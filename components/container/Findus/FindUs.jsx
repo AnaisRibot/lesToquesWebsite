@@ -19,10 +19,12 @@ const FindUs = (props) => {
             <p className="p__contact-day" >Lundi</p>
             <p className="p__opensans">à Pacy s/Eure</p>
           </div>
+          <div className='app__contact-dash'/>
           <div className='app__contact-head'>
             <p className="p__contact-day" >Mardi</p>
             <p className="p__opensans">à Boisset-les-Prévanches</p>
           </div>
+          <div className='app__contact-dash'/>
           <div className='app__contact-head'>
             <p className="p__contact-day" >Mercredi</p>
             <p className="p__opensans">Au Cormier</p>
