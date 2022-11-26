@@ -19,7 +19,7 @@ export default function Home() {
       <SpecialMenu />
       <FindUs place={places[now.getDay()]} map={maps[now.getDay()]} />
       <Contact />
-      <Gallery />
+      {/* <Gallery /> */}
       <Laurels />
     </div>
   );

@@ -1,4 +1,6 @@
-
+.app__laurels-link:hover{
+    color: var(--color-golden);
+}
 .app__laurels-offer{
     display: flex;
     justify-content: space-between;
