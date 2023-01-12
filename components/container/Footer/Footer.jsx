@@ -12,12 +12,14 @@ const Footer = () => (
           <a
             href="https://www.facebook.com/profile.php?id=100057098964227"
             target="_blank"
+            rel="noreferrer"
           >
             <FiFacebook />
           </a>
           <a
             href="https://www.instagram.com/lestoquesdelapizza/"
             target="_blank"
+            rel="noreferrer"
           >
             <FiInstagram />
           </a>

@@ -34,6 +34,7 @@ const Laurels = () => (
             <a
               href="https://www.facebook.com/profile.php?id=100057098964227"
               target="_blank"
+              rel="noreferrer"
             >
               <FaFacebook fill="#2374E1" />
             </a>{" "}
@@ -51,6 +52,7 @@ const Laurels = () => (
                 className="app__laurels-link"
                 href="https://www.facebook.com/profile.php?id=100057098964227"
                 target="_blank"
+                rel="noreferrer"
               >
                 Facebook
               </a>{" "}
