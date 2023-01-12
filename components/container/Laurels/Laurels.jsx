@@ -28,7 +28,7 @@ const Laurels = () => (
           id="rewardImg"
           style={{ justifyContent: "flex-start" }}
         >
-          <img src={"/toquesReward.png"} alt="laurels_img" />
+          <img src={"/toquesReward.webp"} alt="laurels_img" />
           <h1 className="app__laurels-headtext">
             +{" "}
             <a

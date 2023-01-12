@@ -27,7 +27,7 @@ const Header = (props) => {
           </button>
         </div>
         <div className="app__wrapper_img" id="header__img">
-          <img src={"/welcome2.png"} alt="header img" />
+          <img src={"/welcome2.webp"} alt="header img" />
         </div>
       </div>
     </div>
