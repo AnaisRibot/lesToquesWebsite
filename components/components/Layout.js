@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Camion à Pizza | PACY-SUR-EURE, BOISSET-LES-PREVANCHES, CORMIER, ROLLEBOISE, EVREUX.
