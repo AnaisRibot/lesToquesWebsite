@@ -13,10 +13,10 @@ const Header = (props) => {
         <div className="app__header-content">
           <p className="p__opensans" style={{ margin: "2rem 0" }}>
             {" "}
-            Ici vous trouverez toutes les informations utiles pour nous trouver
-            et commander vos pizze. Le camion des toqués est aussi disponible
-            pour tous vos évènements : Mariage, baptême, portes ouvertes, CE...
-            N&apos;hésitez pas à nous contacter!
+            test Ici vous trouverez toutes les informations utiles pour nous
+            trouver et commander vos pizze. Le camion des toqués est aussi
+            disponible pour tous vos évènements : Mariage, baptême, portes
+            ouvertes, CE... N&apos;hésitez pas à nous contacter!
           </p>
           <p className="app__header-info_place">
             aujourd&apos;hui nous sommes : <span>{props.place}</span>
