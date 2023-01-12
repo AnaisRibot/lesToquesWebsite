@@ -1,13 +1,24 @@
 import React from "react";
 import Head from "next/head";
-import { Footer } from '../container';
-import { Navbar } from './';
+import { Footer } from "../container";
+import { Navbar } from "./";
 
 const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
         <meta charset="UTF-8" />
+        <meta
+          name="description"
+          content="Camion à Pizza | PACY-SUR-EURE, BOISSET-LES-PREVANCHES, CORMIER, ROLLEBOISE, EVREUX.
+         Vous souhaitez déguster une excellente pizza faite uniquement avec des produits frais et de qualités ? N'hésitez pas et commandez au +33765507242 ou venez directement nous rencontrez sur place. 
+         Nous sommes ouverts du lundi au vendredi à partir de 18h. Nous organisons aussi vos évènements (Mariage, Baptême, CE, portes ouvertes), contactez-nous directement sur le site ou via lestoquesdelapizza.27@gmail.com pour tout renseignement et devis"
+        />
+        <meta
+          name="keywords"
+          content="Camion à pizza, LES TOQUES DE LA PIZZA, PACY SUR EURE, BOISSET-LES-PREVANCHES, CORMIER, ROLLEBOISE, EVREUX, Événements privés, À emporter, food truck"
+        />
+        <meta name="phone" content="+33765507242" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

@@ -9,8 +9,18 @@ const Footer = () => (
         <p className="p__opensans">07 65 50 72 42</p>
         <p className="p__opensans">lestoquesdelapizza27@gmail.com</p>
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiInstagram />
+          <a
+            href="https://www.facebook.com/profile.php?id=100057098964227"
+            target="_blank"
+          >
+            <FiFacebook />
+          </a>
+          <a
+            href="https://www.instagram.com/lestoquesdelapizza/"
+            target="_blank"
+          >
+            <FiInstagram />
+          </a>
         </div>
       </div>
 

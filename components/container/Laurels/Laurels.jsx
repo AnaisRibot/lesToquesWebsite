@@ -31,7 +31,10 @@ const Laurels = () => (
           <img src={"/toquesReward.png"} alt="laurels_img" />
           <h1 className="app__laurels-headtext">
             +{" "}
-            <a href="https://www.facebook.com/profile.php?id=100057098964227">
+            <a
+              href="https://www.facebook.com/profile.php?id=100057098964227"
+              target="_blank"
+            >
               <FaFacebook fill="#2374E1" />
             </a>{" "}
           </h1>
@@ -47,6 +50,7 @@ const Laurels = () => (
               <a
                 className="app__laurels-link"
                 href="https://www.facebook.com/profile.php?id=100057098964227"
+                target="_blank"
               >
                 Facebook
               </a>{" "}
