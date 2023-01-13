@@ -20,7 +20,7 @@ const Laurels = () => (
     <h1 className="headtext__cormorant">Carte de fidelité</h1>
     <div className="app__wrapper_info" id="info__content">
       <h1 className="app_laurels-headtext_info">
-        12 pizze achetées = 1 pizza offerte !
+        12 pizzas achetées = 1 pizza offerte !
       </h1>
       <div className="app__laurels-offer">
         <div
