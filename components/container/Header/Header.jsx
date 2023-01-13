@@ -6,7 +6,7 @@ const Header = (props) => {
     <div className="app__header  section__padding" id="home">
       <SubHeading title="Bienvenue" />
       <h1 className="headtext__cormorant" id="header__title">
-        Tous Toqués des pizze !
+        Tous Toqués des pizzas !
       </h1>
 
       <div className="app__wrapper_info" id="home__content">
@@ -14,7 +14,7 @@ const Header = (props) => {
           <p className="p__opensans" style={{ margin: "2rem 0" }}>
             {" "}
             Ici vous trouverez toutes les informations utiles pour nous trouver
-            et commander vos pizze. Le camion des toqués est aussi disponible
+            et commander vos pizzas. Le camion des toqués est aussi disponible
             pour tous vos évènements : Mariage, baptême, portes ouvertes, CE...
             N&apos;hésitez pas à nous contacter!
           </p>
