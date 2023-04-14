@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <img src={"/toques.png"} alt="footer_logo" />
-        <p className="p__opensans">07 65 50 72 42</p>
+        <p className="p__opensans">07 65 50 72 49</p>
         <p className="p__opensans">lestoquesdelapizza27@gmail.com</p>
         <div className="app__footer-links_icons">
           <a
@@ -40,7 +40,7 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <p className="p__opensans">
-        2022 Les toqués de la pizza. Tout droit réservé.
+        2023. Les toqués de la pizza. Tout droit réservé.
       </p>
     </div>
   </div>
