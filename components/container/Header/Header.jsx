@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/future/image";
 import { SubHeading } from "../../components";
 
 const Header = (props) => {
@@ -6,7 +7,7 @@ const Header = (props) => {
     <div className="app__header  section__padding" id="home">
       <SubHeading title="Bienvenue" />
       <h1 className="headtext__cormorant" id="header__title">
-        Tous Toqués des pizzas !
+        Tous Toqués des pizzas&#8239;!
       </h1>
 
       <div className="app__wrapper_info" id="home__content">
@@ -27,7 +28,13 @@ const Header = (props) => {
           </button>
         </div>
         <div className="app__wrapper_img" id="header__img">
-          <img src={"/welcome2.webp"} alt="header img" />
+          <Image
+            src="/welcome2.webp"
+            width="883"
+            height="805"
+            className="my_img"
+            alt="header img"
+          />
         </div>
       </div>
     </div>

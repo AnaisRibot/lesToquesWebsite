@@ -33,8 +33,9 @@
 
     margin-bottom: 0;
 }
-.app__footer-links_contact img {
+.app__footer-links_contact-img {
     width: 250px;
+    height: auto;
     margin-bottom: 0.75rem;
 }
 
@@ -102,9 +103,10 @@
         line-height: 18px;
     }
 
-    .app__footer-links_contact img{
+    .app__footer-links_contact-img{
         margin: 0;
         width: 200px;
+        height: auto;
     }
     .footer__copyright p {
         color: var(--color-grey);

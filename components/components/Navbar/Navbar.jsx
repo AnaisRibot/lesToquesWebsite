@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/future/image";
 import { GiHamburgerMenu, GiRotaryPhone } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 
@@ -7,7 +8,13 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={"/toques.png"} alt="app logo" />
+        <Image
+          src={"/toques.png"}
+          alt="app logo"
+          width="450"
+          height="121"
+          className="app__navbar-logo_img"
+        />
       </div>
       <ul className="app__navbar-links">
         {/* <li className="p__opensans"> <a href="#home">Accueil</a></li> */}

@@ -1,11 +1,19 @@
 import React from "react";
+import Image from "next/future/image";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 
 const Footer = () => (
   <div className=" app__footer" id="login">
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
-        <img src={"/toques.png"} alt="footer_logo" />
+        <Image
+          src={"/toques.png"}
+          alt="footer logo"
+          width="250"
+          height="67"
+          className="app__footer-links_contact-img"
+        />
+
         <p className="p__opensans">07 65 50 72 49</p>
         <p className="p__opensans">lestoquesdelapizza27@gmail.com</p>
         <div className="app__footer-links_icons">

@@ -1,18 +1,7 @@
 import React from "react";
-
+import Image from "next/future/image";
 import { SubHeading } from "../../components";
-import { data } from "../../../constants";
 import { FaFacebook } from "react-icons/fa";
-
-// const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
-//   <div className="app__laurels_awards-card">
-//     <img src={imgUrl} alt="awards" />
-//     <div className="app__laurels_awards-card_content">
-//       <p className="p__cormorant" style={{ color: '#f36f21' }}>{title}</p>
-//       <p className="p__opensans">{subtitle}</p>
-//     </div>
-//   </div>
-// );
 
 const Laurels = () => (
   <div className="app__bg section__padding" id="promos">
@@ -28,7 +17,13 @@ const Laurels = () => (
           id="rewardImg"
           style={{ justifyContent: "flex-start" }}
         >
-          <img src={"/toquesReward.webp"} alt="laurels_img" />
+          <Image
+            src={"/toquesReward.webp"}
+            alt="laurels_img"
+            width="549"
+            height="433"
+            className="rewardImg_img"
+          />
           <h1 className="app__laurels-headtext">
             +{" "}
             <a
