@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: url('/bg.webp');
+  background: #000000 url('/bg.webp');
   background-position: top;
   background-size: cover;
   background-repeat: repeat;
