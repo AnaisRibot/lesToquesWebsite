@@ -1,82 +1,82 @@
 const classic = [
   {
     title: "La Margarita",
-    price: "9.00 €",
+    price: "10.00 €",
     tags: "Tomate, Mozzarella, Olives, Origan",
   },
   {
     title: "La Paola",
-    price: "10.00 €",
+    price: "11.00 €",
     tags: "Tomate,Mozzarella, Jambon, Olives, Origan",
   },
   {
     title: "La Reine",
-    price: "11.00 €",
+    price: "12.00 €",
     tags: "Tomate, Mozzarella, Jambon, Champignons, Olives, Origan",
   },
   {
     title: "L’Orientale",
-    price: "12.00 €",
+    price: "13.00 €",
     tags: "Tomate, Mozzarella, Poivron, Merguez, Œuf, Origan",
   },
   {
     title: "L’Apicultrice",
-    price: "12.00 €",
+    price: "13.00 €",
     tags: "Tomate, Mozzarella, Chèvre, Miel, Origan",
   },
   {
     title: "La Cabri",
-    price: "12.00 €",
+    price: "13.00 €",
     tags: "Tomate, Mozzarella, Chèvre, Lardon, Origan",
   },
   {
     title: "La Calzonne",
-    price: "13.00 €",
+    price: "14.00 €",
     tags: "Tomate,Mozzarella, Jambon, Œuf",
   },
   {
     title: "La 4 Fromages",
-    price: "12.00 €",
+    price: "13.00 €",
     tags: "Tomate, Mozzarella, Chèvre, Gorgonzola, Reblochon, Origan",
   },
   {
     title: "La Napolitaine",
-    price: "12.00 €",
+    price: "13.00 €",
     tags: "Tomate, Mozzarella, Câpres, Anchois, Olives",
   },
   {
-    title: "La Bayonne",
-    price: "12.00 €",
+    title: "La Speck",
+    price: "13.00 €",
     tags: "Tomate, Mozzarella, Speck, Olives, Origan",
   },
   {
     title: "La Thon",
-    price: "12.00 €",
+    price: "13.00 €",
     tags: "Tomate, Mozzarella, Thon, Olives, Origan",
   },
   {
     title: "La Bolognaise",
-    price: "13.00 €",
+    price: "14.00 €",
     tags: "Tomate, Mozzarella, Bœuf Haché, Œuf, Origan",
   },
   {
     title: "L’Américaine",
-    price: "13.00 €",
+    price: "14.00 €",
     tags: "Tomate, Mozzarella, Bacon, Jambon, Champignons, Poivron, Œuf",
   },
   {
     title: "La Végétarienne	",
-    price: "13.00 €",
+    price: "14.00 €",
     tags: "Tomate, Mozzarella, Aubergine, Cœur d’Artichaut, Poivron,Olives, Champignons, Origan",
   },
   {
     title: "L’Andalouse",
-    price: "13.00 €",
+    price: "14.00 €",
     tags: "Tomate, Mozzarella, Spinata, Merguez, poivron, Œuf, Origan",
   },
   {
     title: "La Spéciale",
-    price: "14.00 €",
+    price: "15.00 €",
     tags: "Tomate, Mozzarella, Bacon, Jambon, Spinata, Œuf",
   },
 ];
@@ -84,32 +84,32 @@ const classic = [
 const cream = [
   {
     title: "La Flammekueche",
-    price: "10.00 €",
+    price: "11.00 €",
     tags: "Crème Fraîche, Mozzarella, lardons, Oignon",
   },
   {
     title: "La Raclette",
-    price: "13.00€",
+    price: "14.00€",
     tags: "Crème Fraîche, Mozzarella, Pomme de Terre, Bacon, Fromage à Raclette",
   },
   {
     title: "La Savoyarde",
-    price: "13.00€",
+    price: "14.00€",
     tags: "Crème Fraîche, Pomme de Terre, Lardons, Oignon, Reblochon, Origan",
   },
   {
     title: "La Neptune",
-    price: "13.00€",
+    price: "14.00€",
     tags: "Crème Fraîche, Mozzarella, Saumon Fumé",
   },
   {
     title: "La Bressane",
-    price: "13.00€",
+    price: "14.00€",
     tags: "Crème Fraîche, Tomate, Mozzarella, Champignons, Oignon, Poulet",
   },
   {
     title: "La Massala",
-    price: "13.00€",
+    price: "14.00€",
     tags: "Crème au Curry, Poulet, Mozzarella, Oignons Confits, Poivron",
   },
 ];
@@ -117,17 +117,17 @@ const cream = [
 const bufala = [
   {
     title: "La Margarita",
-    price: "11.00 €",
+    price: "12.00 €",
     tags: "Tomate, Di Bufala, Olives, Origan",
   },
   {
     title: "La Reine",
-    price: "13.00€",
+    price: "14.00€",
     tags: "Tomate, Di Bufala, Jambon, Champignons, Olives, Origan",
   },
   {
     title: "L’Italienne",
-    price: "15.00€",
+    price: "16.00€",
     tags: "Tomate, Di Bufala, Speck, Tomates Confites, Olives, Origan",
   },
 ];
