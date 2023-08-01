@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 const transportSendInBlue = nodemailer.createTransport({
-  host: "smtp-relay.sendinblue.com",
+  host: "smtp-relay.brevo.com",
   Port: 587,
   secure: false,
   auth: {
