@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/future/image";
 import { SubHeading } from "../../components";
+import { sendClickEvent } from "../../components/GoogleAnalytics";
 
 const Header = (props) => {
   return (
@@ -13,7 +14,6 @@ const Header = (props) => {
       <div className="app__wrapper_info" id="home__content">
         <div className="app__header-content">
           <p className="p__opensans" style={{ margin: "2rem 0" }}>
-            {" "}
             Ici vous trouverez toutes les informations utiles pour nous trouver
             et commander vos pizzas. Le camion des toqués est aussi disponible
             pour tous vos évènements : Mariage, baptême, portes ouvertes, CE...
@@ -23,8 +23,7 @@ const Header = (props) => {
             aujourd&apos;hui nous sommes : <span>{props.place}</span>
           </p>
           <button type="button" className="custom__button">
-            {" "}
-            <a href="#menu">Voir le Menu</a>
+            <a href="#menu" onClick={() => sendClickEvent('Voir le Menu')}>Voir le Menu</a>
           </button>
         </div>
         <div className="app__wrapper_img" id="header__img">

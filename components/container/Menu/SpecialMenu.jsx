@@ -1,6 +1,7 @@
 import React from "react";
 import { SubHeading, MenuItem } from "../../components";
 import { data } from "../../../constants";
+import { sendClickEvent } from "../../components/GoogleAnalytics";
 
 const SpecialMenu = () => (
   <div className="app__bg">
@@ -67,6 +68,7 @@ const SpecialMenu = () => (
               style={{ marginTop: "1rem" }}
               className="custom__button"
               type="button"
+              onClick={() => sendClickEvent('Télécharger le Menu')}
             >
               <a href={"/flyer.pdf"} download>
                 Télécharger le Menu

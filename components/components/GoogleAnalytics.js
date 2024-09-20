@@ -1,5 +1,21 @@
 import Script from "next/script";
 
+export const sendClickEvent = (triggerId) => {
+  console.log('sendClickEvent', triggerId);
+
+  sendEvent({
+    action: 'User click', category: 'User interaction', label: triggerId
+  })
+}
+
+export const sendEvent = ({ action, category, label, value }) => {
+  window.gtag("event", action, {
+    event_category: category,
+    event_label: label,
+    value: value,
+  })
+}
+
 const GoogleAnalytics = ({ ga_id }) => {
   return (
     <>

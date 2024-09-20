@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SubHeading from '../SubHeading/SubHeading';
+import { sendClickEvent } from '../GoogleAnalytics';
 
 const Newsletter = () => {
 
@@ -12,6 +13,9 @@ const Newsletter = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("En cours...");
+
+    sendClickEvent('Envoyer email')
+
     const { firstName, lastName, email, phone, formContent } = e.target.elements;
     let details = {
       firstName: firstName.value,
@@ -28,7 +32,7 @@ const Newsletter = () => {
       },
       body: JSON.stringify(details),
     });
-    
+
     let result = await response.json();
     if(result.status==="Message Sent"){
       setIsValidated(true);
@@ -37,7 +41,7 @@ const Newsletter = () => {
       setHasValidationError(true);
     }
     setStatus("Envoyer");
-    
+
   };
 
 
@@ -49,7 +53,7 @@ const Newsletter = () => {
         <h1 className="headtext__cormorant">Nous contacter</h1>
         <p className="p__opensans">Besoin d&apos;informations pour organiser vos évènements (mariage, baptême, CE...) ? <br /> On répond à toutes vos questions !</p>
       </div>
-      
+
       <form className="app__newsletter-input flex__center" onSubmit={handleSubmit}>
         <div className='app__newsletter-input_name'>
           <input required type="text" placeholder="Nom*" name='lastName'/>
@@ -65,7 +69,7 @@ const Newsletter = () => {
         <button type="submit" className="custom__button" >{status}</button>
       </form>
 
-      
+
 
     </div>
   )
