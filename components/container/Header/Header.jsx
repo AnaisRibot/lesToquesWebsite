@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/future/image";
+import Image from "next/image";
 import { SubHeading } from "../../components";
 import { sendClickEvent } from "../../components/GoogleAnalytics";
 
@@ -23,7 +23,9 @@ const Header = (props) => {
             aujourd&apos;hui nous sommes : <span>{props.place}</span>
           </p>
           <button type="button" className="custom__button">
-            <a href="#menu" onClick={() => sendClickEvent('Voir le Menu')}>Voir le Menu</a>
+            <a href="#menu" onClick={() => sendClickEvent("Voir le Menu")}>
+              Voir le Menu
+            </a>
           </button>
         </div>
         <div className="app__wrapper_img" id="header__img">

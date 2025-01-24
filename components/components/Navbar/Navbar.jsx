@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/future/image";
+import Image from "next/image";
 import { GiHamburgerMenu, GiRotaryPhone } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 
