@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { SubHeading } from '../../components';
+import { sendClickEvent } from '../../components/GoogleAnalytics';
 
 const FindUs = (props) => {
   return(
@@ -42,7 +43,7 @@ const FindUs = (props) => {
           <div className='app__contact-dash'/>
         </div>
         {/* <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button> */}
-        <div className="app__wrapper_img" id='app__wrapper_iFrame'>
+        <div className="app__wrapper_img" id='app__wrapper_iFrame' onMouseOver={() => sendClickEvent('utilice la map')}>
             <iframe src={props.map}
             style={{ backgroundImage: 'url(/findus.webp)'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
         </div>
