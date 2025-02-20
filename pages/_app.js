@@ -16,11 +16,29 @@ import "../styles/globals.css";
 import "../styles/index.css";
 import Layout from "../components/components/Layout";
 
+import { Lobster, Bebas_Neue } from 'next/font/google';
+
+const fontLobster = Lobster({
+  variable: '--font-lobster',
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+const fontBebasNeue = Bebas_Neue({
+  variable: '--font-bebas_neue',
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <div className={`${fontBebasNeue.variable} ${fontLobster.variable}`}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </div>
   );
 }
 

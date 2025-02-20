@@ -56,7 +56,7 @@
 }
 
 .app__footer-headtext {
-    font-family: var(--font-base);
+    font-family: var(--font-bebas_neue);
     color: var(--color-white);
     font-weight: 400;
     letter-spacing: 0.04em;
@@ -90,7 +90,7 @@
         margin: 0;
         width: 100%;
     }
-   
+
     .app__footer-headtext{
         font-size: 20px;
         line-height: 20px;
@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 480px) {
     .app__footer {
-     
+
         padding: 0 1rem;
     }
     .app__footer-links {
