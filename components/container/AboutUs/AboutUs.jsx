@@ -29,12 +29,12 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <img src={"/G.png"} alt="G letter" />
+        <Image src={"/G.png"} alt="G letter" />
       </div>
 
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
-        <img src={"/spoon.webp"} alt="about_spoon" className="spoon__img" />
+        <Image src={"/spoon.webp"} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans" id="p__history">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultrices vulputate posuere tristique. In sed odio nec

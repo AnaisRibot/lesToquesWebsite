@@ -6,6 +6,7 @@ import {
 } from "react-icons/bs";
 
 import { SubHeading } from "../../components";
+import Image from "next/image";
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -48,7 +49,7 @@ const Gallery = () => {
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
             >
-              <img src={image} alt="gallery" />
+              <Image src={image} alt="gallery" />
               <BsInstagram className="gallery__image-icon" />
             </div>
           ))}

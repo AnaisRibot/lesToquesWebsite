@@ -5,13 +5,13 @@
     align-items: center;
     background: var(--color-black);
     padding: 1rem 2rem;
-   
+
 }
 
 .app__navbar-logo{
   display: flex;
   justify-content: flex-start;
-  align-items: center;  
+  align-items: center;
 }
 
 .app__navbar-logo_img{
@@ -92,7 +92,7 @@
     color: var(--color-golden);
     font-size: 2rem;
     text-align: center;
-    font-family: var(--font-base);
+    font-family: var(--font-bebas_neue);
 }
 
 .app__navbar-smallscreen_links li:hover{
@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 1150px) {
     .app__navbar-links{
-        display: none;   
+        display: none;
     }
     .app__navbar-smallscreen{
         display: flex;
