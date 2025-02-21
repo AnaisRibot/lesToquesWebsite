@@ -2,6 +2,7 @@ import React from "react";
 import { SubHeading, MenuItem } from "../../components";
 import { data } from "../../../constants";
 import { sendClickEvent } from "../../components/GoogleAnalytics";
+import Image from "next/image";
 
 const SpecialMenu = () => (
   <div className="app__bg">
@@ -27,7 +28,7 @@ const SpecialMenu = () => (
         </div>
 
         <div className="app__specialMenu-menu_img">
-          <img src={"/menu.webp"} alt="menu img" />
+          <Image src={"/menu.webp"} alt="menu img" />
         </div>
 
         <div className="app__specialMenu-menu_cocktails flex__center">
@@ -68,7 +69,7 @@ const SpecialMenu = () => (
               style={{ marginTop: "1rem" }}
               className="custom__button"
               type="button"
-              onClick={() => sendClickEvent('Télécharger le Menu')}
+              onClick={() => sendClickEvent("Télécharger le Menu")}
             >
               <a href={"/flyer.pdf"} download>
                 Télécharger le Menu
