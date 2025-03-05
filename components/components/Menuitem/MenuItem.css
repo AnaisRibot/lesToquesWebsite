@@ -35,7 +35,7 @@
 }
 
 .app__menuItem-item{
-    font-family: var(--font-base);
+    font-family: var(--font-bebas_neue);
     color: var(--color-white);
     font-weight: lighter;
     letter-spacing: 0.04em;
@@ -44,7 +44,7 @@
     line-height: 26px;
     font-size: 20px;
   }
-  
+
   .app__menuItem-item_ingredient {
     font-family: var(--font-alt);
     color: var(--color-white);
@@ -65,5 +65,5 @@
         line-height: 30x;
         font-size: 20px;
     }
-    
+
 }

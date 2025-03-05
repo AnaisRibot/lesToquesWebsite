@@ -1,6 +1,6 @@
 .app__header{
     background-color: var(--color-black);
- 
+
 }
 
 #header__title{
@@ -8,7 +8,7 @@
 }
 
 .app__header-info_place{
-    font-family: var(--font-base);
+    font-family: var(--font-bebas_neue);
     font-weight: 400;
     font-size: 32px;
     line-height: 41.6px;
@@ -24,7 +24,7 @@
 }
 
 .app__header-h1{
-    font-family: var(--font-title);
+    font-family: var(--font-lobster);
     font-weight: lighter;
     color: var(--color-golden);
     letter-spacing: 0.04em;
@@ -55,7 +55,7 @@
       font-size: 150px;
       line-height: 210px;
     }
-  
+
   }
 
 
@@ -83,11 +83,11 @@
         padding: 0;
     }
 
-  
-  }
-  
 
-  
+  }
+
+
+
   @media screen and (max-width: 768px) {
     #home__content{
       flex-direction: column-reverse;

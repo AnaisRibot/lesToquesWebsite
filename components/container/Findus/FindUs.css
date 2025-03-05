@@ -19,7 +19,7 @@
 .p__contact-day{
     color: #f36f21;
     font-weight: lighter;
-    font-family: var(--font-base);
+    font-family: var(--font-bebas_neue);
     letter-spacing: 0.04em;
     text-transform: capitalize;
     font-feature-settings: 'tnum' on, 'lnum' on;
@@ -27,7 +27,7 @@
     font-size: 23px;
 }
 
-iframe{    
+iframe{
     height: 450px;
     width: 500px;
     background-size: cover;
@@ -100,11 +100,11 @@ iframe{
     }
 
   }
-  
+
   @media screen and (max-width: 450px) {
     .p__contact-day {
       font-size: 19px;
-    }  
+    }
     iframe{
       background-image: none;
       border: 10px solid var(--color-golden);
