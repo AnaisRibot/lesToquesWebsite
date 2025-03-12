@@ -149,22 +149,22 @@ const supp = [
 
 const awards = [
   {
-    imgUrl: "/award02.png",
+    imgUrl: "/award02.webp",
     title: "Bib Gourmond",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: "/award01.png",
+    imgUrl: "/award01.webp",
     title: "Rising Star",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: "/award05.png",
+    imgUrl: "/award05.webp",
     title: "AA Hospitality",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: "/award03.png",
+    imgUrl: "/award03.webp",
     title: "Outstanding Chef",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },

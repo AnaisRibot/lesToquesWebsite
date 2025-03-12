@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <Image
-          src={"/toques.png"}
+          src={"/toques.webp"}
           alt="footer logo"
           width="250"
           height="67"
