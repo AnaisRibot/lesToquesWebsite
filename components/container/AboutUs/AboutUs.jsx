@@ -29,7 +29,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <img src={"/G.png"} alt="G letter" />
+        <img src={"/G.webp"} alt="G letter" />
       </div>
 
       <div className="app__aboutus-content_history">

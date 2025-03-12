@@ -20,10 +20,10 @@ const Gallery = () => {
   };
 
   const galleryImages = [
-    "/gallery01.png",
-    "/gallery02.png",
-    "/gallery03.png",
-    "/gallery04.png",
+    "/gallery01.webp",
+    "/gallery02.webp",
+    "/gallery03.webp",
+    "/gallery04.webp",
   ];
 
   return (

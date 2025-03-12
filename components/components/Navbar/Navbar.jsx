@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <Image
-          src={"/toques.png"}
+          src={"/toques.webp"}
           alt="app logo"
           width="450"
           height="121"
