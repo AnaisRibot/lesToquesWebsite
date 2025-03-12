@@ -19,7 +19,7 @@ const Chef = () => (
       </div>
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
-          <Image src={"/quote.webp"} alt="Chef quote" />
+          <img src={"/quote.webp"} alt="Chef quote" />
           <p className="p__opensans">
             <strong>Le plaisir de faire plaisir...</strong> C&apos;est comme
             cela que je résume ma passion, mon métier.
@@ -31,7 +31,7 @@ const Chef = () => (
           <div className="app__chef-sign">
             <p>Patrice Ducher</p>
             <p className="p__opensans">Chef & Pizzaïolo</p>
-            <Image id="signImg" src={"/sign.webp"} alt="sign" />
+            <img id="signImg" src={"/sign.webp"} alt="sign" />
           </div>
         </div>
       </div>
