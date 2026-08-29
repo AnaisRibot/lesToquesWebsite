@@ -17,9 +17,9 @@
     "typescript": "^4.9.5"
   },
   "devDependencies": {
-    "eslint": "9.39.4",
+    "eslint": "10.9.1",
     "eslint-config-next": "^15.5.18",
-    "postcss": ">=8.5.23"
+    "postcss": ">=8.5.26"
   },
   "engines": {
     "node": "22.x"
